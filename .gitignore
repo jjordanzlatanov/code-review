@@ -1,4 +1,9 @@
 venv
+venv2
 
 # .txt
 requirements.txt
+
+# python
+*.pyc
+*.sqlite3
