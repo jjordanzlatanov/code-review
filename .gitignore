@@ -1,4 +1,12 @@
+# virtual environment
 venv
+venv2
 
-# .txt
+# .python database files
+*.pyc
+
+# sqlite database files
+*.sqlite3
+
+# virtual environment list of packages
 requirements.txt
