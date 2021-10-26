@@ -1,0 +1,21 @@
+<body>
+    <table style="border: 2px solid black">
+        <tr>
+            <td style="border: 2px solid black; width: 200px; text-align: center;"><strong>Time</strong></td>
+            <td style="border: 2px solid black; width: 200px; text-align: center;"><strong>Destination</strong></td>
+            <td style="border: 2px solid black; width: 200px; text-align: center;"><strong>Vehicle</strong></td>
+            <td style="border: 2px solid black; width: 200px; text-align: center;"><strong>Track</strong></td>
+            <td style="border: 2px solid black; width: 200px; text-align: center;"><strong>Status</strong></td>
+
+        </tr>
+        {%for i in content%}
+        <tr>
+            <td style="text-align: center;">{{i.time}}</td>
+            <td style="text-align: center;">{{i.destination}}</td>
+            <td style="text-align: center;">{{i.vehicle}}</td>
+            <td style="text-align: center;">{{i.track}}</td>
+            <td style="text-align: center;">{{i.status}}</td>
+        </tr>
+        {%endfor%}
+</table>
+</body>
